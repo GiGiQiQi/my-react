@@ -13,6 +13,7 @@ const App = () => {
     <Box>
         <Navbar />
         <Routes>
+          {/*I have successfully publish this project to github*/}
             <Route path="/" element={<Home />} />
             <Route path="/exercise/:id" element={<ExerciseDetails />} />
         </Routes>
